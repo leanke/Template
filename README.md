@@ -1,2 +1,2 @@
 # Template
-A template To create Pufferlib environments
+A template to create Pufferlib environments
