@@ -1,3 +1,3 @@
 import warnings
-from .torch import Policy, Recurrent
+from .policy import Policy, Recurrent
 warnings.filterwarnings("ignore", category=UserWarning, module='gymnasium.core')

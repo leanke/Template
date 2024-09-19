@@ -64,7 +64,6 @@ def train(args, make_env, policy_cls, rnn_cls, wandb):
         vec = pufferlib.vector.Ray
     else:
         raise ValueError(f'Invalid --vector (serial/multiprocessing/ray).')
-    # T()
     vecenv = pufferlib.vector.make(
         make_env,
         env_kwargs=args['env'],
